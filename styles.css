@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+/*texto: font-family: 'Space Grotesk', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+/*titulos h1:font-family: 'Protest Revolution', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?&família=Protesto+Greve&exibição=troca');
+/*titulos h3:font-family: 'Protest Revolution', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    
+}
+body {
+    overflow-x: hidden;
+}
+
+* h1{
+    font-family:'Protest Revolution', sans-serif;
+}
+* h3,h4,h5{
+    font-family: 'Protest Strike', sans-serif;
+}
+* p, a, body{
+    font-family: 'Space Grotesk', sans-serif; 
+}
+
+/******************Estilo home banner inicial*********/
+#home {
+    width: 100vw;
+    height: auto;
+}
+
+#imgHome {
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+#texto {
+    color: rgb(255, 255, 255);
+}
+
+#texto h1 {
+    color: #FFBD7C;
+    font-size: 10vw;
+}
+#texto h3{
+    font-size: 5vw;
+}
+#texto p{
+    font-size: 1.5vw;
+}
+
+.nav-link {
+    margin: 4px;
+    color: white;
+    font-size: 1.4em;
+    border: #FFBD7C solid 2px;
+    border-radius: 25px;
+    background-color: #FFBD7C;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+   
+}
+
+/************************Estilo Area Serviços****************************/
+#servicos {
+    background: rgb(226,119,119);
+    background: radial-gradient(circle, rgba(226,119,119,1) 26%, rgba(180,27,66,1) 72%, rgba(232,72,94,1) 98%);
+    color: white;
+}
+#botaoServicos a{
+    background: rgb(226,119,119);
+    background: radial-gradient(circle, rgba(226,119,119,1) 26%, rgba(232,72,94,1) 98%);
+    color: white;
+    border: black solid 2px;
+}
+
+#imgServicos {
+    margin-top: 5em;
+}
+
+#imgServicos img {
+    width: 60vw;
+    height: auto;
+    border-radius: 1.5em;
+}
+
+#imgBanner3 {
+    width: 100%;
+    height: auto;
+    margin-top: 5em;
+}
+/************************Estilo Area Quem somos****************************/
+#quemSomos {
+    width: 100%;
+    height: auto;
+    background: rgb(205,195,195);
+    background: radial-gradient(circle, rgba(205,195,195,1) 0%, rgba(168,166,167,1) 2%, rgba(120,118,118,1) 77%);
+    color: white;
+}
+
+#quemSomos p {
+    text-align: justify;
+}
+/************************Estilo Area portfolio****************************/
+#Portifolio {
+    background: rgb(205,195,195);
+    background: radial-gradient(circle, rgba(205,195,195,1) 0%, rgba(168,166,167,1) 2%, rgba(120,118,118,1) 77%);
+}
+/************************Estilo Area contato****************************/
+#contato {
+    width: 100%;
+    height: auto;
+    color: white;
+    
+    background: rgb(211,211,214);
+    background: radial-gradient(circle, rgba(211,211,214,1) 0%, rgba(255,189,124,1) 98%);
+}
+#iniciarConversa{
+    background: rgb(211,211,214);
+    background: radial-gradient(circle, rgba(211,211,214,1) 0%, rgba(255,189,124,1) 98%);
+    color: white;
+    border: black solid 2px;
+}
+#fecharQRCode{
+    position: relative;
+    float: right;
+    padding: 0;
+    font-size: 20px;
+    margin-top: -25px;
+    
+}
+#footer{
+    background: rgb(211,211,214);
+    background: radial-gradient(circle, rgba(211,211,214,1) 0%, rgba(255,189,124,1) 98%);
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px ){
+    .nav-link{
+        width: 55vw;
+    }
+}
